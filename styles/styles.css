@@ -1,0 +1,146 @@
+/* css styling for farm (mock) */
+
+*
+{
+    font-family:Verdana;
+}
+
+body
+{
+    margin:0px;
+}
+
+#logoText
+{
+    color:gray;
+    text-align: right;
+}
+
+header
+{
+    padding:5px;
+    background-color: rgb(156, 224, 28);
+    height: 75px;
+}
+
+nav
+{
+    padding:1%;
+    height:50px;
+    background-color: rgb(3, 63, 3);
+    text-align: center;;
+}
+
+h2
+{
+    color:darkgray;
+}
+
+a, a:focus
+{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover
+{
+    color:rgb(161, 221, 50);
+}
+
+.inTextLink
+{
+    color:rgb(20, 178, 231);
+}
+
+#active
+{
+    text-decoration: none;
+    padding:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #b2b2b2;
+    display: inline;
+    border:2px dashed rgb(63, 117, 58);
+    border-radius: 8px;
+}
+
+nav ul li
+{
+
+    padding:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #b2b2b2;
+    display: inline;
+    border:2px solid rgb(172, 228, 156);
+    border-radius: 8px;
+}
+
+main
+{
+    width: 100%;
+}
+
+.bigImage
+{
+    border:darkolivegreen solid 5px;
+    margin-left: 15%;
+    margin-right:15%;
+    width: 65%;
+}
+
+.otherBigImage
+{
+    border:white solid 5px;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+
+.imgCalfPage
+{
+    border:3px dashed darkslategray;
+    width:48%;
+}
+
+.imgHensPage
+{
+
+    width: 32%;
+}
+
+footer
+{
+    margin:2px;
+    padding:15px;
+    width:100%;
+    background-color: rgb(3, 63, 3);
+    height: 50px;
+    text-align: center;
+}
+
+.floatRight
+{
+    margin:5px;
+    border:3px dashed darkgreen;
+    float:right;
+}
+
+.floatLeft
+{
+    margin:5px;
+    border:3px dashed darkgreen;
+    float:left;
+}
+
+article
+{
+    margin-bottom:1px;
+    padding:2px;
+}
+
+.maxDisplay
+{
+    max-height:350px;
+    overflow:auto;
+}
